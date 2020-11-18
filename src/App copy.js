@@ -89,12 +89,12 @@ function ChatRoom() {
   return(
   <>
     <main>
-      <p>{messages && messages.map(msg => <ChatMessage key={msg.id} message={msg} />)}</p>
+        <p>{messages && messages.map(msg => <ChatMessage key={msg.id} message={msg} />)}</p>
         <span ref={dummy}></span>
     </main>
       <form onSubmit={sendMessage}>
         <input value={formValue} onChange={(change) => setFormValue(change.target.value)} placeholder="Enter Something :)" />
-        <button type="submit" disabled={!formValue}>🖂</button>
+        <button type="submit" disabled={!formValue}>x</button>
       </form>
   </>
   )
@@ -105,7 +105,7 @@ function ChatMessage(props) {
   const messageClass = uid === auth.currentUser.uid ? 'sent' : 'received';
   return (
     <div className={`message ${messageClass}`}>
-      <img src={photoURL} alt="Message" />
+      <img src={photoURL || 'https://api.adorable.io/avatars/23/abott@adorable.png'} />
       <p>{text}</p>
     </div>
   )
