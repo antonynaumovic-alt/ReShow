@@ -1,38 +1,426 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
 .App {
+  background-color: rgb(0,255,255);
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mediaViewInfo {
+  --web-view-name: 1600-01-Landing – 1;
+  --web-view-id: ID1600-01-Landing__1;
+  --web-scale-on-resize: true;
+  --web-enable-deep-linking: true;
+}
+:root {
+  --web-view-ids: ID1600-01-Landing__1;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+#ID1600-01-Landing__1 {
+  position: absolute;
+  width: 1600px;
+  height: 960px;
+  background-color: rgba(255,255,255,1);
+  overflow: hidden;
+  --web-view-name: 1600-01-Landing – 1;
+  --web-view-id: ID1600-01-Landing__1;
+  --web-scale-on-resize: true;
+  --web-enable-deep-linking: true;
+}
+#Group_496 {
+  fill: rgba(255,255,255,1);
+}
+.Group_496 {
+  position: absolute;
+  overflow: visible;
+  width: 1740px;
+  height: 978px;
+  left: -60px;
+  top: -9px;
+}
+#Logo {
+  position: absolute;
+  width: 154px;
+  height: 154px;
+  left: 723px;
+  top: 30px;
+  overflow: visible;
+}
+#ISU_Logo_2017-18_Transparent {
+  fill: rgba(187,10,33,1);
+}
+.ISU_Logo_2017-18_Transparent {
+  position: absolute;
+  overflow: visible;
+  width: 154px;
+  height: 154px;
+  left: 0px;
+  top: 0px;
+}
+#temp_Name {
+  left: 35px;
+  top: 112px;
+  position: absolute;
+  overflow: visible;
+  width: 83px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: rgba(255,255,255,1);
+  text-transform: uppercase;
+}
+#Group_2154 {
+  position: absolute;
+  width: 171px;
+  height: 55px;
+  left: 90.141px;
+  top: 242.707px;
+  overflow: visible;
+}
+#LOGIN {
+  filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.102));
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  overflow: visible;
+  width: 172px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 55px;
+  color: rgba(187,10,33,1);
+  text-transform: uppercase;
+}
+#Group_2285 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: -74px;
+  top: -74px;
+  overflow: visible;
+}
+#Ellipse_685 {
+  fill: rgba(187,10,33,1);
+}
+.Ellipse_685 {
+  position: absolute;
+  overflow: visible;
+  width: 150px;
+  height: 150px;
+  left: 0px;
+  top: 0px;
+}
+#Menu {
+  position: absolute;
+  width: 19.727px;
+  height: 13.222px;
+  left: 94.902px;
+  top: 99.037px;
+  overflow: visible;
+}
+#Group_457 {
+  position: absolute;
+  width: 19.727px;
+  height: 13.222px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+#Line_42 {
+  fill: transparent;
+  stroke: rgba(255,249,251,1);
+  stroke-width: 3px;
+  stroke-linejoin: miter;
+  stroke-linecap: round;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.Line_42 {
+  overflow: visible;
+  position: absolute;
+  width: 22.727px;
+  height: 3px;
+  left: 0px;
+  top: 0px;
+  transform: matrix(1,0,0,1,0,0);
+}
+#Line_43 {
+  fill: transparent;
+  stroke: rgba(255,249,251,1);
+  stroke-width: 3px;
+  stroke-linejoin: miter;
+  stroke-linecap: round;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.Line_43 {
+  overflow: visible;
+  position: absolute;
+  width: 22.727px;
+  height: 3px;
+  left: 0px;
+  top: 6.611px;
+  transform: matrix(1,0,0,1,0,0);
+}
+#Line_44 {
+  fill: transparent;
+  stroke: rgba(255,249,251,1);
+  stroke-width: 3px;
+  stroke-linejoin: miter;
+  stroke-linecap: round;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.Line_44 {
+  overflow: visible;
+  position: absolute;
+  width: 22.727px;
+  height: 3px;
+  left: 0px;
+  top: 13.222px;
+  transform: matrix(1,0,0,1,0,0);
+}
+#Rectangle_274 {
+  fill: rgba(255,255,255,1);
+  stroke: rgba(112,112,112,1);
+  stroke-width: 3px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.Rectangle_274 {
+  position: absolute;
+  overflow: visible;
+  width: 832px;
+  height: 39px;
+  left: 90px;
+  top: 329px;
+}
+#Rectangle_275 {
+  fill: rgba(255, 255, 255, 1);
+  stroke: rgba(112,112,112,1);
+  stroke-width: 3px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.Rectangle_275 {
+  position: absolute;
+  overflow: visible;
+  width: 832px;
+  height: 39px;
+  left: 90px;
+  top: 398px;
+}
+#Email {
+  left: 110px;
+  top: 340px;
+  position: absolute;
+  overflow: visible;
+  width: 202px;
+  height: 23px;
+  text-align: left;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  color: rgba(197,197,197,1);
+  text-transform: uppercase;
+}
+#Password {
+  left: 110px;
+  top: 409px;
+  position: absolute;
+  overflow: visible;
+  width: 202px;
+  height: 23px;
+  text-align: left;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  color: rgba(197,197,197,1);
+  text-transform: uppercase;
+}
+#Button {
+  position: absolute;
+  width: 171px;
+  height: 42px;
+  left: 90px;
+  top: 467px;
+  overflow: visible;
+}
+#Outline {
+  fill: transparent;
+  stroke: rgba(0,0,0,1);
+  stroke-width: 2px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Outline {
+  position: absolute;
+  overflow: visible;
+  width: 171px;
+  height: 42px;
+  left: 0px;
+  top: 0px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#LOGIn {
+  left: 64px;
+  top: 16px;
+  position: absolute;
+  overflow: visible;
+  width: 45px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: rgba(0,0,0,1);
+  text-transform: uppercase;
 }
-
-.App-link {
-  color: #61dafb;
+#Google_G_Logo {
+  position: absolute;
+  width: 48.446px;
+  height: 49.424px;
+  left: 90px;
+  top: 574.787px;
+  overflow: visible;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#Path_2549 {
+  fill: rgba(66,133,244,1);
+}
+.Path_2549 {
+  overflow: visible;
+  position: absolute;
+  width: 23.735px;
+  height: 23.199px;
+  left: 24.711px;
+  top: 20.259px;
+  transform: matrix(1,0,0,1,0,0);
+}
+#Path_2550 {
+  fill: rgba(52,168,83,1);
+}
+.Path_2550 {
+  overflow: visible;
+  position: absolute;
+  width: 38.463px;
+  height: 19.976px;
+  left: 2.629px;
+  top: 29.448px;
+  transform: matrix(1,0,0,1,0,0);
+}
+#Path_2551 {
+  fill: rgba(251,188,4,1);
+}
+.Path_2551 {
+  overflow: visible;
+  position: absolute;
+  width: 10.837px;
+  height: 22.191px;
+  left: 0px;
+  top: 13.622px;
+  transform: matrix(1,0,0,1,0,0);
+}
+#Path_2552 {
+  fill: rgba(234,67,53,1);
+}
+.Path_2552 {
+  overflow: visible;
+  position: absolute;
+  width: 38.617px;
+  height: 19.987px;
+  left: 2.629px;
+  top: 0px;
+  transform: matrix(1,0,0,1,0,0);
+}
+#twitter-seeklogocom {
+  position: absolute;
+  width: 47.554px;
+  height: 38.646px;
+  left: 175.5px;
+  top: 580.282px;
+  overflow: visible;
+}
+#Path_2553 {
+  fill: rgba(85,172,238,1);
+}
+.Path_2553 {
+  overflow: visible;
+  position: absolute;
+  width: 47.554px;
+  height: 38.646px;
+  left: 0px;
+  top: 0px;
+  transform: matrix(1,0,0,1,0,0);
+}
+#facebook {
+  fill: rgba(58,85,159,1);
+}
+.facebook {
+  overflow: visible;
+  position: absolute;
+  width: 49.211px;
+  height: 49.211px;
+  left: 260px;
+  top: 575px;
+  transform: matrix(1,0,0,1,0,0);
+}
+#Rectangle_276 {
+  opacity: 0.7;
+  fill: rgba(187,10,33,1);
+}
+.Rectangle_276 {
+  position: absolute;
+  overflow: visible;
+  width: 1238px;
+  height: 82px;
+  left: 147px;
+  top: 878px;
+}
+#GDPR {
+  left: 169px;
+  top: 891px;
+  position: absolute;
+  overflow: visible;
+  width: 202px;
+  height: 23px;
+  text-align: left;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: rgba(255,249,251,1);
+  text-transform: uppercase;
+}
+#CLICK_HERE_TO_ACCEPT_COOKIES_T {
+  left: 169px;
+  top: 922px;
+  position: absolute;
+  overflow: visible;
+  width: 821px;
+  height: 23px;
+  text-align: left;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  color: rgba(255,249,251,1);
+  text-transform: uppercase;
 }
