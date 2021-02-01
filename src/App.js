@@ -37,21 +37,45 @@ const [user] = useAuthState(auth);
         <SignOut />
       </header>
       <section>
-          {user ? <ChatRoom /> : <SignIn />}
+          {user ? <ChatRoom /> : <SignInGoogle /> : <SignIn />}
         </section>
 
     </div>
   );
 }
+firebase.auth().onAuthStateChanged(function(user)) {
+  if(user){
 
+  }else{
+
+  }
+}
 function SignIn() {
+  var email = document.getElementById("email_feild").value;
+  var password = document.getElementById("password_feild").value;
+  firebase.auth().signInWithEmailAndPassword(email, password).then((userCredentials) => {
+    var user = userCredentials.user;
+  })
+      .catch((error) => {
+        var errorCode = error.code;
+        var errorMessage = error.message;
+      });
+
+  return(
+    <>
+      <button onClick={signInWithEmailAndPassword}> Sign In </button>
+      </>
+  )
+}
+
+function SignInGoogle() {
   const signInWithGoogle = () => {
     const provider = new firebase.auth.GoogleAuthProvider();
     auth.signInWithPopup(provider);
   }
   return(
   <>
-    <button onClick={signInWithGoogle}>Sign In</button>
+    <button onClick={signInWithGoogle}>Sign In Google</button>
     </>
   )
 }
