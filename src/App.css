@@ -30,51 +30,7 @@
   --web-scale-on-resize: true;
   --web-enable-deep-linking: true;
 }
-#Group_496 {
-  fill: rgba(255,255,255,1);
-}
-.Group_496 {
-  position: absolute;
-  overflow: visible;
-  width: 1740px;
-  height: 978px;
-  left: -60px;
-  top: -9px;
-}
-#Logo {
-  position: absolute;
-  width: 154px;
-  height: 154px;
-  left: 723px;
-  top: 30px;
-  overflow: visible;
-}
-#ISU_Logo_2017-18_Transparent {
-  fill: rgba(187,10,33,1);
-}
-.ISU_Logo_2017-18_Transparent {
-  position: absolute;
-  overflow: visible;
-  width: 154px;
-  height: 154px;
-  left: 0px;
-  top: 0px;
-}
-#temp_Name {
-  left: 35px;
-  top: 112px;
-  position: absolute;
-  overflow: visible;
-  width: 83px;
-  white-space: nowrap;
-  text-align: center;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  color: rgba(255,255,255,1);
-  text-transform: uppercase;
-}
+
 #Group_2154 {
   position: absolute;
   width: 171px;
@@ -423,4 +379,12 @@
   font-size: 15px;
   color: rgba(255,249,251,1);
   text-transform: uppercase;
+}
+#Enrolle {
+  position: absolute;
+  width: 506px;
+  height: 91px;
+  left: 150px;
+  top: 35px;
+  overflow: visible;
 }
