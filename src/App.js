@@ -1,24 +1,11 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import logo from './Enrolle_bn.png';
 import './App.css';
 
 function App() {
     return (
 <body>
 <div id="ID1600-01-Landing__1">
-<svg class="Group_496">
-<rect id="Group_496" rx="0" ry="0" x="0" y="0" width="1740" height="978">
-</rect>
-</svg>
-<div id="Logo">
-<svg class="ISU_Logo_2017-18_Transparent">
-<rect id="ISU_Logo_2017-18_Transparent" rx="77" ry="77" x="0" y="0" width="154" height="154">
-</rect>
-</svg>
-<div id="temp_Name">
-<span>temp Name</span>
-</div>
-</div>
 <div id="Group_2154">
 <div id="LOGIN">
 <span>LOGIN</span>
@@ -106,6 +93,9 @@ function App() {
 </div>
 <div id="CLICK_HERE_TO_ACCEPT_COOKIES_T">
 <span>CLICK HERE TO ACCEPT COOKIES. Terms and Conditions apply.</span>
+</div>
+<div id="Enrolle" className="Enrolle">
+<img id="Enrolle" src={logo}/>
 </div>
 </div>
 </body>
