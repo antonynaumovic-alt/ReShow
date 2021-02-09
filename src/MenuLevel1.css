@@ -1,0 +1,829 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
+
+.mediaViewInfo {
+  --web-view-name: 1600-08-MenuLevel1;
+  --web-view-id: ID1600-08-MenuLevel1;
+  --web-scale-on-resize: true;
+  --web-enable-deep-linking: true;
+}
+:root {
+  --web-view-ids: ID1600-08-MenuLevel1;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+#ID1600-08-MenuLevel1 {
+  position: absolute;
+  width: 1600px;
+  height: 960px;
+  background-color: rgba(255,255,255,1);
+  overflow: hidden;
+  --web-view-name: 1600-08-MenuLevel1;
+  --web-view-id: ID1600-08-MenuLevel1;
+  --web-scale-on-resize: true;
+  --web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+
+}
+#BG {
+  position: absolute;
+  width: 1600px;
+  height: 960.351px;
+  left: -1px;
+  top: -2.35px;
+  overflow: visible;
+}
+#Orange {
+  opacity: 0.7;
+  fill: rgba(75,136,162,1);
+}
+.Orange {
+  overflow: visible;
+  position: absolute;
+  width: 1133px;
+  height: 960px;
+  left: 467px;
+  top: 0.35px;
+  transform: matrix(1,0,0,1,0,0);
+}
+#Off_white {
+  fill: rgba(255,255,255,1);
+}
+.Off_white {
+  overflow: visible;
+  position: absolute;
+  width: 1024px;
+  height: 960.351px;
+  left: 0px;
+  top: 0px;
+  transform: matrix(1,0,0,1,0,0);
+}
+#Featured_Events {
+  position: absolute;
+  width: 1240px;
+  height: 439px;
+  left: 660px;
+  top: 286px;
+  overflow: visible;
+}
+#Featured_Events_ {
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  overflow: visible;
+  width: 286px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  color: rgba(37,38,39,1);
+  text-transform: uppercase;
+}
+#Event_Card_1 {
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  left: 0px;
+  top: 67px;
+  overflow: visible;
+}
+#Rectangle_31 {
+  fill: rgba(227,227,227,1);
+}
+.Rectangle_31 {
+  position: absolute;
+  overflow: visible;
+  width: 400px;
+  height: 300px;
+  left: 0px;
+  top: 0px;
+}
+#ID1_1 {
+  fill: rgba(0,0,0,1);
+}
+.ID1_1 {
+  position: absolute;
+  overflow: visible;
+  width: 400px;
+  height: 300px;
+  left: 0px;
+  top: 0px;
+}
+#Date {
+  position: absolute;
+  width: 36px;
+  height: 53px;
+  left: 22px;
+  top: 223px;
+  overflow: visible;
+}
+#ID29_Apr {
+  filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 1));
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  overflow: visible;
+  width: 37px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Avenir Next;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  color: rgba(255,255,255,1);
+}
+#WebRTC_Upgrades {
+  filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 1));
+  left: 110px;
+  top: 226px;
+  position: absolute;
+  overflow: visible;
+  width: 321px;
+  height: 58px;
+  line-height: 24px;
+  margin-top: -2px;
+  text-align: left;
+  font-family: Avenir Next;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgba(255,255,255,1);
+}
+#Event_Card_2 {
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  left: 420px;
+  top: 67px;
+  overflow: visible;
+}
+#Rectangle_31_ {
+  fill: rgba(227,227,227,1);
+}
+.Rectangle_31_ {
+  position: absolute;
+  overflow: visible;
+  width: 400px;
+  height: 300px;
+  left: 0px;
+  top: 0px;
+}
+#DP_List_a_1 {
+  fill: rgba(0,0,0,1);
+}
+.DP_List_a_1 {
+  position: absolute;
+  overflow: visible;
+  width: 400px;
+  height: 300px;
+  left: 0px;
+  top: 0px;
+}
+#Date_ {
+  position: absolute;
+  width: 36px;
+  height: 53px;
+  left: 22px;
+  top: 223px;
+  overflow: visible;
+}
+#ID29_Apr_ {
+  filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 1));
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  overflow: visible;
+  width: 37px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Avenir Next;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  color: rgba(255,255,255,1);
+}
+#Server_Maintenance {
+  filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 1));
+  left: 110px;
+  top: 226px;
+  position: absolute;
+  overflow: visible;
+  width: 321px;
+  height: 58px;
+  line-height: 24px;
+  margin-top: -2px;
+  text-align: left;
+  font-family: Avenir Next;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgba(255,255,255,1);
+}
+#Event_Card_2_ {
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  left: 840px;
+  top: 67px;
+  overflow: visible;
+}
+#Rectangle_31_ba {
+  fill: rgba(227,227,227,1);
+}
+.Rectangle_31_ba {
+  position: absolute;
+  overflow: visible;
+  width: 400px;
+  height: 300px;
+  left: 0px;
+  top: 0px;
+}
+#DP_List_a_1_bb {
+  fill: rgba(0,0,0,1);
+}
+.DP_List_a_1_bb {
+  position: absolute;
+  overflow: visible;
+  width: 400px;
+  height: 300px;
+  left: 0px;
+  top: 0px;
+}
+#Date_bc {
+  position: absolute;
+  width: 36px;
+  height: 53px;
+  left: 22px;
+  top: 223px;
+  overflow: visible;
+}
+#ID29_Apr_bd {
+  filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 1));
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  overflow: visible;
+  width: 37px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Avenir Next;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  color: rgba(255,255,255,1);
+}
+#Server_Maintenance_be {
+  filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 1));
+  left: 110px;
+  top: 226px;
+  position: absolute;
+  overflow: visible;
+  width: 321px;
+  height: 58px;
+  line-height: 24px;
+  margin-top: -2px;
+  text-align: left;
+  font-family: Avenir Next;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgba(255,255,255,1);
+}
+#Button {
+  position: absolute;
+  width: 171px;
+  height: 42px;
+  left: 12px;
+  top: 397px;
+  overflow: visible;
+}
+.Button{
+  background-color: transparent;
+  padding: 6px;
+  border-radius: 18px;
+  border: 2px solid black;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: rgba(0,0,0,1);
+  text-transform: uppercase;
+  cursor: pointer;
+  transition-duration: 0.4s
+}
+.Button:hover{
+  background-color: #bb0a21;
+  color: white;
+}
+
+#Left_arrow {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 304px;
+  top: 397px;
+  overflow: visible;
+}
+.Left_arrow{
+  background-color: transparent;
+  padding: 12px 6px;
+  border: 2px solid black;
+  border-radius: 50%;
+  cursor: pointer;
+  color: transparent;
+  cursor: pointer;
+
+}
+.Left_arrow:hover{
+  background-color: #bb0a21;
+}
+
+#Left_Pointing_Arrow {
+  fill: transparent;
+  stroke: rgba(0,0,0,1);
+  stroke-width: 2px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.Left_Pointing_Arrow {
+  overflow: visible;
+  position: absolute;
+  width: 16px;
+  height: 12px;
+  transform: translate(0px, 0px) matrix(1,0,0,1,11.5,14.5) rotate(-90deg);
+  transform-origin: center;
+  left: 0px;
+  top: 0px;
+}
+
+#Right_arrow {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 360px;
+  top: 397px;
+  overflow: visible;
+}
+.Right_arrow{
+  background-color: transparent;
+  padding: 12px 6px;
+  border: 2px solid black;
+  border-radius: 50%;
+  cursor: pointer;
+  color: transparent;
+}
+.Right_arrow:hover{
+  background-color: #bb0a21;
+  cursor: pointer;
+}
+#Group_2210_bn {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+
+#Right_Pointing_Arrow {
+  fill: transparent;
+  stroke: rgba(0,0,0,1);
+  stroke-width: 2px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+
+}
+.Right_Pointing_Arrow {
+  overflow: visible;
+  position: absolute;
+  width: 16px;
+  height: 12px;
+  transform: translate(0px, 0px) matrix(1,0,0,1,14.5,14.5) rotate(90deg);
+  transform-origin: center;
+  left: 0px;
+  top: 0px;
+  cursor:pointer;
+}
+
+#Contact_Btn {
+  position: absolute;
+  width: 226.218px;
+  height: 31px;
+  left: 1305.782px;
+  top: 60px;
+  overflow: visible;
+}
+#Contact {
+  position: absolute;
+  width: 104.218px;
+  height: 30px;
+  left: 122px;
+  top: 1px;
+  overflow: visible;
+}
+.Contact{
+  background-color: transparent;
+  padding: 6px;
+  border-radius: 18px;
+  border: 2px solid black;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: rgba(0,0,0,1);
+  text-transform: uppercase;
+  cursor: pointer;
+  transition-duration: 0.4s
+}
+
+.Contact:hover{
+  background-color: #bb0a21;
+  color: white;
+}
+
+#Logins {
+  position: absolute;
+  width: 90px;
+  height: 30px;
+  left: 1300.782px;
+  top: 60px;
+  overflow: visible;
+}
+
+#Logins_b {
+  left: 26px;
+  top: 2px;
+  position: absolute;
+  overflow: visible;
+  width: 65px;
+}
+
+.Logins_b:hover{
+  background-color: #bb0a21;
+  color: white;
+}
+.Logins_b{
+  background-color: transparent;
+  padding: 6px 15px;
+  border-radius: 18px;
+  border: 2px solid black;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: rgba(0,0,0,1);
+  text-transform: uppercase;
+  cursor: pointer;
+  transition-duration: 0.4s
+}
+
+#Menu {
+  position: absolute;
+  width: 15.858px;
+  height: 15.858px;
+  left: 96.5px;
+  top: 99.5px;
+  overflow: visible;
+  --web-animation: fadein 0.3s ease-out;
+  --web-action-type: page;
+  --web-action-target: 1600_01_Landing;
+  cursor: pointer;
+}
+#Group_457 {
+  position: absolute;
+  width: 15.858px;
+  height: 15.858px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+#Line_43 {
+  fill: transparent;
+  stroke: rgba(255,249,251,1);
+  stroke-width: 3px;
+  stroke-linejoin: miter;
+  stroke-linecap: round;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.Line_43 {
+  overflow: visible;
+  position: absolute;
+  width: 20.101px;
+  height: 20.101px;
+  left: 0px;
+  top: 0px;
+  transform: matrix(1,0,0,1,0,0);
+}
+#Line_44 {
+  fill: transparent;
+  stroke: rgba(255,249,251,1);
+  stroke-width: 3px;
+  stroke-linejoin: miter;
+  stroke-linecap: round;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.Line_44 {
+  overflow: visible;
+  position: absolute;
+  width: 20.101px;
+  height: 20.032px;
+  left: 0px;
+  top: 0px;
+  transform: matrix(1,0,0,1,0,0);
+}
+#Level_1 {
+  position: absolute;
+  width: 212px;
+  height: 434px;
+  left: 185px;
+  top: 264px;
+  overflow: visible;
+}
+#Our_Stories {
+  position: absolute;
+  width: 52px;
+  height: 29px;
+  left: 0px;
+  top: 405px;
+  overflow: visible;
+}
+#FAQ_Btn {
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  overflow: visible;
+  width: 53px;
+}
+.FAQ_Btn{
+  background-color: #bb0a21;
+  white-space: nowrap;
+  padding: 5px 10px;
+  border-radius: 18px;
+  border: 3px solid black;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition-duration: 0.4s
+}
+.FAQ_Btn:hover{
+  background-color: white;
+  color: black;
+  border-color: #bb0a21;
+}
+#Work_at_ISU {
+  position: absolute;
+  width: 212px;
+  height: 29px;
+  left: 0px;
+  top: 338px;
+  overflow: visible;
+}
+#Implementation_Btn {
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  overflow: visible;
+  width: 213px;
+}
+.Implementation_Btn{
+  background-color: #bb0a21;
+  white-space: nowrap;
+  padding: 5px 10px;
+  border-radius: 18px;
+  border: 3px solid black;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition-duration: 0.4s
+}
+.Implementation_Btn:hover{
+  background-color: white;
+  color: black;
+  border-color: #bb0a21;
+}
+#ISU_Community {
+  position: absolute;
+  width: 107px;
+  height: 29px;
+  left: 0px;
+  top: 270px;
+  overflow: visible;
+}
+#Why_Us_Btn {
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  overflow: visible;
+  width: 1000px;
+}
+.Why_Us_Btn{
+  background-color: #bb0a21;
+  white-space: nowrap;
+  padding: 5px 10px;
+  border-radius: 18px;
+  border: 3px solid black;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition-duration: 0.4s
+}
+
+.Why_Us_Btn:hover{
+  background-color: white;
+  color: black;
+  border-color: #bb0a21;
+}
+#Beyond_the_classroom {
+  position: absolute;
+  width: 140px;
+  height: 29px;
+  left: 0px;
+  top: 203px;
+  overflow: visible;
+}
+#ApplicationBtn {
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  overflow: visible;
+  width: 141px;
+}
+.ApplicationBtn{
+  background-color: #bb0a21;
+  padding: 5px 10px;
+  border-radius: 18px;
+  border: 3px solid black;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition-duration: 0.4s
+}
+.ApplicationBtn:hover{
+  background-color: white;
+  color: black;
+  border-color: #bb0a21;
+}
+#Learning_at_ISU {
+  position: absolute;
+  width: 201px;
+  height: 29px;
+  left: 0px;
+  top: 135px;
+  overflow: visible;
+}
+#MissionValuesBtn {
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  overflow: visible;
+  width: 300px;
+}
+.MissionValuesBtn{
+  background-color: #bb0a21;
+  padding: 5px 10px;
+  border-radius: 18px;
+  border: 3px solid black;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition-duration: 0.4s
+}
+.MissionValuesBtn:hover{
+  background-color: white;
+  color: black;
+  border-color: #bb0a21;
+}
+#Our_School {
+  position: absolute;
+  width: 106px;
+  height: 29px;
+  left: 0px;
+  top: 68px;
+  overflow: visible;
+}
+#FeaturesBtn {
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  overflow: visible;
+  width: 107px;
+}
+.FeaturesBtn{
+  background-color: #bb0a21;
+  padding: 5px 10px;
+  border-radius: 18px;
+  border: 3px solid black;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition-duration: 0.4s
+}
+.FeaturesBtn:hover{
+  background-color: white;
+  color: black;
+  border-color: #bb0a21;
+}
+#HomeBtn {
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  overflow: visible;
+  width: 80px;
+}
+.HomeBtn{
+  background-color: #bb0a21;
+  padding: 5px 10px;
+  border-radius: 18px;
+  border: 3px solid black;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition-duration: 0.4s
+}
+.HomeBtn:hover{
+  background-color: white;
+  color: black;
+  border-color: #bb0a21;
+}
+#Enrolle{
+  position: absolute;
+  width: 506px;
+  height: 91px;
+  left: 547px;
+  top: 76px;
+  overflow: visible;
+}
+
+#Enrolle_cx {
+  position: absolute;
+  width: 506px;
+  height: 91px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+#Enrolle_cy {
+  position: absolute;
+  width: 506px;
+  height: 91px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
