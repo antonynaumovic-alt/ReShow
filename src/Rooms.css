@@ -1,0 +1,406 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
+
+.mediaViewInfo {
+  --web-view-name: RoomPage;
+  --web-view-id: RoomPage;
+  --web-scale-on-resize: true;
+  --web-enable-deep-linking: true;
+}
+:root {
+  --web-view-ids: RoomPage;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+#RoomPage {
+  position: absolute;
+  width: 1600px;
+  height: 960px;
+  background-color: rgba(255,255,255,1);
+  overflow: hidden;
+  --web-view-name: RoomPage;
+  --web-view-id: RoomPage;
+  --web-scale-on-resize: true;
+  --web-enable-deep-linking: true;
+}
+#Enrolle {
+  transform-origin: center;
+  position: absolute;
+  width: 212px;
+  height: 38px;
+  left: 40px;
+  top: 40px;
+  overflow: visible;
+}
+#EnrolleBtn{
+  transform-origin: center;
+  position: absolute;
+  width: 212px;
+  height: 38px;
+  left: 78px;
+  top: 80px;
+  overflow: visible;
+}
+.EnrolleBtn{
+  background-color: transparent;
+  padding-right: 110px;
+  padding-bottom: 10px;
+  border: 3px solid transparent;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: transparent;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+#Ellipse_689 {
+  fill: rgba(187,10,33,1);
+  stroke: rgba(112,112,112,1);
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.Ellipse_689 {
+  position: absolute;
+  overflow: visible;
+  width: 258px;
+  height: 251px;
+  left: 671px;
+  top: -62px;
+}
+#Rooms {
+  left: 727px;
+  top: 95px;
+  position: absolute;
+  overflow: visible;
+  width: 147px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  color: rgba(0,0,0,1);
+}
+
+#Button {
+  position: absolute;
+  width: 125px;
+  height: 42px;
+  left: 1058px;
+  top: 366px;
+  overflow: visible;
+}
+/*#Outline {
+  position: absolute;
+  width: 125px;
+  height: 42px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+#Outline_ {
+  fill: transparent;
+  stroke: rgba(0,0,0,1);
+  stroke-width: 2px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.Outline_ {
+  position: absolute;
+  overflow: visible;
+  width: 125px;
+  height: 42px;
+  left: 0px;
+  top: 0px;
+}*/
+
+#createBtn{
+  position:absolute;
+  width: 125px;
+  height: 42px;
+  left: 1030px;
+  top: 366px
+}
+.createBtn{
+  background-color: #bb0A21;
+  padding: 6px;
+  border-radius: 18px;
+  border: 3px solid black;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition-duration: 0.4s
+}
+
+.createBtn:hover{
+  border-color: #bb0A21;
+  color: black;
+}
+
+#joinBtn{
+  left: 1030px;
+  top: 480px;
+  position: absolute;
+  width: 125px;
+  height: 42px;
+}
+.joinBtn{
+  background-color: #bb0A21;
+  padding: 6px;
+  border-radius: 18px;
+  border: 3px solid black;
+  text-align: center;
+  white-space: nowrap;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition-duration: 0.4s
+}
+.joinBtn:hover{
+  border-color: #bb0A21;
+  color: black;
+}
+
+#backBtn{
+  position: absolute;
+  width: 106px;
+  height: 42px;
+  left: 79px;
+  top: 611px;
+}
+
+.backBtn{
+  background-color: transparent;
+  padding: 6px;
+  border-radius: 18px;
+  border: 3px solid black;
+  text-align: center;
+  white-space: nowrap;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: black;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition-duration: 0.4s
+}
+
+.backBtn:hover{
+  color: white;
+  background-color: #bb0A21;
+}
+
+#supportBtn{
+  left: 114px;
+  top: 891px;
+  position: absolute;
+}
+.supportBtn{
+  background-color: transparent;
+  text-align: center;
+  white-space: nowrap;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: black;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.supportBtn:hover{
+  text-decoration: underline;
+}
+
+#contactBtn{
+  left: 300px;
+  top: 891px;
+  position: absolute;
+}
+
+.contactBtn{
+  background-color: transparent;
+  text-align: center;
+  white-space: nowrap;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: black;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.contactBtn:hover{
+  text-decoration: underline;
+}
+#Rectangle_276 {
+  opacity: 0.7;
+  fill: rgb(187, 10, 33);
+}
+.Rectangle_276 {
+  position: absolute;
+  overflow: visible;
+  width: 1600px;
+  height: 132px;
+  left: 0px;
+  top: 828px;
+}
+
+
+#Button_bn {
+  position: absolute;
+  width: 145px;
+  height: 42px;
+  left: 1381px;
+  top: 63px;
+  overflow: visible;
+}
+#Outline_bo {
+  position: absolute;
+  width: 145px;
+  height: 42px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+#Outline_bp {
+  fill: transparent;
+  stroke: rgba(0,0,0,1);
+  stroke-width: 2px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.Outline_bp {
+  position: absolute;
+  overflow: visible;
+  width: 145px;
+  height: 42px;
+  left: 0px;
+  top: 0px;
+}
+#Log_out {
+  left: 25px;
+  top: 9px;
+  position: absolute;
+  overflow: visible;
+  width: 97px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: rgba(0,0,0,1);
+  text-transform: uppercase;
+}
+#logoutBtn{
+  position: absolute;
+  width: 145px;
+  height: 42px;
+  left: 1381px;
+  top: 63px;
+
+}
+.logoutBtn{
+  background-color: transparent;
+  padding: 8px;
+  border-radius: 18px;
+  border: 2px solid black;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: black;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition-duration: 0.4s
+}
+.logoutBtn:hover{
+  background-color: #bb0A21;
+  color: white;
+}
+
+#accountBtn{
+  position:absolute;
+  width: 145px;
+  height: 42px;
+  left: 1200px;
+  top: 63px;
+}
+.accountBtn{
+  background-color: transparent;
+  padding: 8px;
+  border-radius: 18px;
+  border: 2px solid black;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: black;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition-duration: 0.4s
+}
+
+.accountBtn:hover{
+  background-color: #bb0A21;
+  color: white;
+}
+
+#inputCreate[type=text]{
+  position: absolute;
+  width: 832px;
+  height: 39px;
+  left: 185px;
+  top: 367px;
+  overflow: visible;
+  border: 3px solid rgb(112, 112, 112);
+  border-radius: 18px;
+  font-family: Montserrat;
+  font-style: initial;
+  font-weight: normal;
+  font-size: 14px;
+  color: #454545;
+
+}
+#inputJoin{
+  position: absolute;
+  width: 832px;
+  height: 39px;
+  left: 185px;
+  top: 480px;
+  overflow: visible;
+  border: 3px solid rgb(112, 112, 112);
+  border-radius: 18px;
+  font-family: Montserrat;
+  font-style: initial;
+  font-weight: normal;
+  font-size: 14px;
+  color: #454545;
+}
