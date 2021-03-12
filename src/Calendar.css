@@ -1,0 +1,307 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
+
+.mediaViewInfo {
+  --web-view-name: CalendarPage;
+  --web-view-id: CalendarPage;
+  --web-scale-on-resize: true;
+  --web-enable-deep-linking: true;
+}
+:root {
+  --web-view-ids: CalendarPage;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+#CalendarPage {
+  position: absolute;
+  width: 1600px;
+  height: 1159px;
+  background-color: rgba(255,255,255,1);
+  overflow: hidden;
+  --web-view-name: CalendarPage;
+  --web-view-id: CalendarPage;
+  --web-scale-on-resize: true;
+  --web-enable-deep-linking: true;
+}
+#border {
+  opacity: 0.7;
+  fill: rgba(187,10,33,1);
+  position: absolute;
+  overflow: visible;
+  width: 1600px;
+  height: 132px;
+  left: 0px;
+  top: 1027px;
+}
+.Enrolle {
+  transform-origin: center;
+  position: absolute;
+  width: 212px;
+  height: 38px;
+  left: 40px;
+  top: 40px;
+  overflow: visible;
+}
+#EnrolleBtn{
+  transform-origin: center;
+  position: absolute;
+  width: 212px;
+  height: 38px;
+  left: 40px;
+  top: 40px;
+  overflow: visible;
+  background-color: transparent;
+  padding-right: 110px;
+  padding-bottom: 10px;
+  border: 3px solid transparent;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: transparent;
+  cursor: pointer;
+}
+#heading {
+  left: 458px;
+  top: 172px;
+  position: absolute;
+  overflow: visible;
+  width: 685px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 45px;
+  color: rgba(0,0,0,1);
+}
+
+#accountBtn {
+  position: absolute;
+  width: 145px;
+  height: 42px;
+  left: 1200px;
+  top: 20px;
+  background-color: transparent;
+  padding: 8px;
+  border-radius: 18px;
+  border: 2px solid black;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: black;
+  text-transform: uppercase;
+}
+#logOutBtn{
+  position: absolute;
+  width: 145px;
+  height: 42px;
+  left: 1400px;
+  top: 20px;
+  background-color: transparent;
+  padding: 8px;
+  border-radius: 18px;
+  border: 2px solid black;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: black;
+  text-transform: uppercase;
+}
+
+#authorizeBtn{
+  left: 280px;
+  top: 726px;
+  position: absolute;
+  width: 151px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-right: 10px;
+  padding-left: 10px;
+  background-color: transparent;
+  border: 3px solid black;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  border-radius: 18px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: rgba(0,0,0,0.82);
+}
+
+#signoutBtn{
+  left: 280px;
+  top: 726px;
+  position: absolute;
+  width: 151px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-right: 10px;
+  padding-left: 10px;
+  background-color: transparent;
+  border: 3px solid black;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  border-radius: 18px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: rgba(0,0,0,0.82);
+}
+
+#authorizeBtn:hover{
+  color: white;
+  background-color: #bb0A21;
+}
+
+#googleCalendarBtn{
+  left: 674px;
+  top: 725px;
+  position: absolute;
+  width: 151px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-right: 190px;
+  padding-left: 10px;
+  background-color: transparent;
+  border: 3px solid black;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  border-radius: 18px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: rgba(0,0,0,0.82);
+}
+#googleCalendarBtn:hover{
+  color: white;
+  background-color: #bb0A21;
+}
+#newEventBtn{
+  left: 1159px;
+  top: 726px;
+   position: absolute;
+   width: 151px;
+   padding-top: 3px;
+   padding-bottom: 3px;
+   padding-right: 30px;
+   padding-left: 10px;
+   background-color: transparent;
+   border: 3px solid black;
+   cursor: pointer;
+   transition-duration: 0.4s;
+   border-radius: 18px;
+   white-space: nowrap;
+   text-align: center;
+   font-family: Montserrat;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 20px;
+   color: rgba(0,0,0,0.82);
+ }
+#newEventBtn:hover{
+  color: white;
+  background-color: #bb0A21;
+}
+
+#deleteEventBtn{
+  left: 1159px;
+  top: 807px;
+  position: absolute;
+  width: 151px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-right: 150px;
+  padding-left: 10px;
+  background-color: transparent;
+  border: 3px solid black;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  border-radius: 18px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: rgba(0,0,0,0.82);
+}
+#deleteEventBtn:hover{
+  color: white;
+  background-color: #bb0A21;
+}
+
+#upcomingEvents{
+  left: 225px;
+  top: 342px;
+  position: absolute;
+  overflow: visible;
+  width: 345px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: rgba(0,0,0,0.82);
+}
+
+#contactBtn{
+  left: 300px;
+  top: 1081px;
+  position: absolute;
+  background-color: transparent;
+  text-align: center;
+  white-space: nowrap;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: black;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+#contactBtn:hover{
+  text-decoration: underline;
+}
+
+
+#supportBtn{
+  left: 109px;
+  top: 1081px;
+  position: absolute;
+  background-color: transparent;
+  text-align: center;
+  white-space: nowrap;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: black;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+#supportBtn:hover{
+  text-decoration: underline;
+}
