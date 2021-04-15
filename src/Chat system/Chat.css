@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
+
+.mediaViewInfo {
+  --web-view-name: ChatPage;
+  --web-view-id: ChatPage;
+  --web-scale-on-resize: true;
+  --web-enable-deep-linking: true;
+}
+
+#ChatPage {
+  position: absolute;
+  width: 1450px;
+  height: 840px;
+  background-color: rgba(255,255,255,1);
+  overflow: hidden;
+  --web-view-name: NotesPage;
+  --web-view-id: NotesPage;
+  --web-scale-on-resize: true;
+  --web-enable-deep-linking: true;
+}
+
+#chatDisplayBox {
+  fill: rgba(0,0,0,0.173);
+  stroke: rgba(112,112,112,1);
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.chatDisplayBox {
+  overflow: scroll;
+  position: absolute;
+  width: 552px;
+  height: 679px;
+  left: 895px;
+  top: 30px;
+  transform: matrix(1,0,0,1,0,0);
+}
+#chatInput[type=text] {
+  background-color: rgba(0,0,0,0.173);
+  stroke: rgba(112,112,112,1);
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+  overflow: visible;
+  position: absolute;
+  width: 431.258px;
+  height: 127.614px;
+  left: 895px;
+  top: 709px;
+  transform: matrix(1,0,0,1,0,0);
+  overflow: scroll;
+}
+
+.sendBtn {
+  width: 121px;
+  height: 128px;
+  left: 1326px;
+  top: 709px;
+  color: rgba(255,255,255,1);
+  background-color: #BB0A21;
+  stroke: rgba(112,112,112,1);
+  border-color: #bb0a21;
+  overflow: visible;
+  position: absolute;
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.sendBtn:hover{
+  color:black;
+  border-color: #BB0A21
+}
+
+#topBar {
+  fill: rgba(0,0,0,0.447);
+  stroke: rgba(112,112,112,1);
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.topBar {
+  position: absolute;
+  overflow: visible;
+  width: 552px;
+  height: 54px;
+  left: 895px;
+  top: 30px;
+}
+
+
+.closeBtn{
+  background-color: rgba(255,0,0,1);
+  stroke: rgba(255,0,0,1);
+  border-color: rgba(255,0,0,1);
+  stroke-width: 1px;
+  position: absolute;
+  overflow: visible;
+  width: 60px;
+  height: 54px;
+  left: 1385px;
+  top: 30px;
+}
+
+.minimiseBtn {
+  background-color: rgba(255,127,0,1);
+  stroke: rgba(255,127,21,1);
+  stroke-width: 1px;
+  border-color: rgba(255,127,21,1);
+  shape-rendering: auto;
+  position: absolute;
+  overflow: visible;
+  width: 60px;
+  height: 54px;
+  left: 1330px;
+  top: 30px;
+  cursor: pointer;
+}
+#close_window {
+  position: absolute;
+  width: 59px;
+  height: 59px;
+  left: 1390px;
+  top: 30px;
+  overflow: visible;
+}
+#minimise_window {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  left: 1332px;
+  top: 28px;
+  overflow: visible;
+}
+#roomGroupChat {
+  left: 900px;
+  top: 45px;
+  position: absolute;
+  overflow: visible;
+  width: 211px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  color: rgba(255,255,255,1);
+}
+#verticalLine {
+  fill: transparent;
+  stroke: rgba(0,0,0,1);
+  stroke-width: 4px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.verticalLine {
+  overflow: visible;
+  position: absolute;
+  width: 4px;
+  height: 810px;
+  left: 893px;
+  top: 30px;
+  transform: matrix(1,0,0,1,0,0);
+}
+#horizontalLine{
+  fill: transparent;
+  stroke: rgba(0,0,0,1);
+  stroke-width: 3px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.horizontalLine {
+  overflow: visible;
+  position: absolute;
+  width: 552px;
+  height: 3px;
+  left: 891px;
+  top: 30px;
+  transform: matrix(1,0,0,1,0,0);
+}
