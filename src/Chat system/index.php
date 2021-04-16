@@ -26,14 +26,31 @@ if(isset($_GET['logout'])){
     <?php
 
     ?>
-
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:100" rel="stylesheet">
         <div id="wrapper">
             <div id="menu">
-                <p class="welcome">Welcome, <b><?php echo $_SESSION['name']; ?></b></p>
-                <p class="logout"><a id="exit" href="#">Exit Chat</a></p>
+                <p class="welcome" style="font-family:Montserrat;
+                                          font-size: 24px;
+                                          font-style: normal;
+                                          font-weight: normal;">Welcome, <b><?php echo $_SESSION['name']; ?></b></p>
+                <p class="logout"><a id="exit" href="#" style= "font-family: Montserrat;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: normal;
+                    background-color: #bb0A21;
+                    color: white;
+                    padding: 6px;
+                    border: 2px solid black;
+                    border-radius: 18px;
+                    cursor: pointer;
+                    text-align: center;
+                    text-transform: uppercase;">Exit Chat</a></p>
             </div>
 
-            <div id="chatbox">
+            <div id="chatbox" style="font-family: Montserrat;
+                                     font-size: 14px
+                                     font-style: normal;
+                                     font-weight: normal;">
             <?php
             if(file_exists("log.html") && filesize("log.html") > 0){
                 $contents = file_get_contents("log.html");
