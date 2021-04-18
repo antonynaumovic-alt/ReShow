@@ -26,14 +26,14 @@ if(isset($_GET['logout'])){
     <?php
 
     ?>
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:100" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100">
         <div id="wrapper">
             <div id="menu">
-                <p class="welcome" style="font-family:Montserrat;
+                <p class="welcome" style="font-family: 'Montserrat', serif;
                                           font-size: 24px;
                                           font-style: normal;
                                           font-weight: normal;">Welcome, <b><?php echo $_SESSION['name']; ?></b></p>
-                <p class="logout"><a id="exit" href="#" style= "font-family: Montserrat;
+                <p class="logout"><a id="exit" href="#" style= "font-family: 'Montserrat', serif;
                     font-size: 20px;
                     font-style: normal;
                     font-weight: normal;
@@ -47,7 +47,7 @@ if(isset($_GET['logout'])){
                     text-transform: uppercase;">Exit Chat</a></p>
             </div>
 
-            <div id="chatbox" style="font-family: Montserrat;
+            <div id="chatbox" style="font-family: 'Montserrat', serif;
                                      font-size: 14px
                                      font-style: normal;
                                      font-weight: normal;">
@@ -59,7 +59,10 @@ if(isset($_GET['logout'])){
             ?>
             </div>
 
-            <form name="message" action="">
+            <form name="message" action="" style="font-family: 'Montserrat', serif; 
+                                                  font-size: 14px;
+                                                  font-style: normal;
+                                                  color: black;">
                 <input name="usermsg" type="text" id="usermsg" />
                 <input name="submitmsg" type="submit" id="submitmsg" value="Send" />
             </form>
