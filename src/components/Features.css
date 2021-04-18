@@ -1,0 +1,46 @@
+:root{
+    width:100%;
+    left:0;
+    top:0;
+    --main: #BB0A21;
+    
+}
+
+.features{
+    width:100%;
+    height: 100vh;
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+
+.features-container{
+    position:absolute;
+    width: 90vw;
+    left: 5vw;
+    height: 90vh;
+    top: 5vh;
+}
+
+
+.features-title{
+    font-weight: 800;
+    font-size: 60pt;
+    color: var(--main);
+}
+
+.features-body{
+    font-weight: 500;
+    font-size: 16pt;
+    color: black;
+}
+
+.leftBar{
+    outline: 5px solid var(--main);
+    outline-offset: -5px;
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    z-index: -5;
+    position: fixed;
+}

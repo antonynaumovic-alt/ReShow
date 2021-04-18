@@ -2,52 +2,35 @@ import React, {useRef, useState} from 'react'
 import { GetContext } from '../contexts/UserAuth'
 import { Link, useHistory } from 'react-router-dom'
 
-export default function Login() {
+export default function Signup() {
 
     const history = useHistory()
-    const { login, signInWithGoogle } = GetContext();
+    const { signup } = GetContext();
     const emailSignupRef = useRef();
     const passwordSignupRef = useRef();
     const [errorMessage, setError] = useState('');
     const [isBusy, setBusy] = useState(false);
-    
 
-    async function handleLogin(e) {
+    async function handleSignup(e) {
         e.preventDefault();
         setError('');
         try{
             setBusy(true);
-            await login(emailSignupRef.current.value, passwordSignupRef.current.value);
+            await signup(emailSignupRef.current.value, passwordSignupRef.current.value);
             history.push("/main");
         } 
         catch {
-            setError('Account Login Failed')
+            setError('Account Creation Failed')
         }
         setBusy(false);
-    }
-
-    async function handleGoogle(e) {
-        e.preventDefault();
-        setError('');
-        try{
-            setBusy(true);
-            await signInWithGoogle();
-            history.push("/main");
-        }
-        catch {
-            setError('Account Login Failed')
-        }
-        setBusy(false);
-
     }
 
     return (
         <>
             <div className="sign-component">
-
-                <h2>Login</h2>
-                <div className="error">{errorMessage}</div>
-                <form onSubmit={handleLogin}>
+                <h2>Sign Up</h2>
+                <div>{errorMessage}</div>
+                <form onSubmit={handleSignup}>
                     <label>Email</label>
                     <input type="email" name="email" ref={emailSignupRef} required />
                     <label>Password</label>
@@ -55,8 +38,7 @@ export default function Login() {
                     <input type="submit" disabled={isBusy}/>
                 </form>
                 <div className="alt-link">
-                    <button onClick={handleGoogle}>Google</button>
-                Switch to <Link to="/signup">Signup</Link>
+                    Switch to <Link to="/login">Login</Link>
                 </div>
             </div>
         </>

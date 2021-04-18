@@ -4,6 +4,9 @@ import { Button } from './Button';
 import EnrolleLogo from './Enrolle.png';
 import './Homepage.css';
 
+import Footer from './Footer';
+import './Footer.css';
+
 function Homepage() {
     return (
         <div className="homepage">
@@ -14,7 +17,7 @@ function Homepage() {
                     <div className="bg-image"></div>
                 </section>
                 <div className="section-divider divider1"></div>
-                <section className="features">
+                <section className="features-homepage">
                     <span className="bg-circle" ></span>
                     <div className="bg-image-features"></div>
                     <div className="text-container">
@@ -29,7 +32,7 @@ At vero eos et accusam et justo duo
                     </div>
                 </section>
                 <div className="section-divider divider2"></div>
-                <section className="mission">
+                <section className="mission-homepage">
                     <span className="bg-circle-alt" ></span>
                     <div className="bg-image-features"></div>
                     <div className="text-container-alt">
@@ -44,6 +47,9 @@ At vero eos et accusam et justo duo
                     </div>
                 </section>
                 <div className="section-divider divider3"></div>
+            </div>
+            <div className="FooterContainer">
+                <Footer/>
             </div>
         </div>
     )

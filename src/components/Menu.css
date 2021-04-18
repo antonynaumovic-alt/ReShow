@@ -214,3 +214,9 @@ ul{
   color: #000;
   z-index: 999;
 }
+
+.currentUserMenu{
+  z-index: 52;
+  position: absolute;
+  bottom: 0;
+}

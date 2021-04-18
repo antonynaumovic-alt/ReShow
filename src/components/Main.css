@@ -1,0 +1,512 @@
+:root{
+    width:100vw;
+    left:0;
+    top:0;
+    --main: #BB0A21;
+    
+}
+
+.main{
+    position:absolute;
+    top:0;
+    left: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
+
+.mediaViewInfo {
+  --web-view-name: StudentMenu;
+  --web-view-id: StudentMenu;
+  --web-scale-on-resize: true;
+  --web-enable-deep-linking: true;
+}
+:root {
+  --web-view-ids: StudentMenu;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+#StudentMenu {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(255,255,255,1);
+  overflow: hidden;
+  --web-view-name: StudentMenu;
+  --web-view-id: StudentMenu;
+  --web-scale-on-resize: true;
+  --web-enable-deep-linking: true;
+}
+#Enrolle {
+  transform-origin: center;
+  position: absolute;
+  width: 212px;
+  height: 38px;
+  left: 40px;
+  top: 40px;
+  overflow: visible;
+}
+#EnrolleBtn{
+  transform-origin: center;
+  position: absolute;
+  width: 212px;
+  height: 38px;
+  left: 78px;
+  top: 80px;
+  overflow: visible;
+}
+.EnrolleBtn{
+  background-color: transparent;
+  padding-right: 110px;
+  padding-bottom: 10px;
+  border: 3px solid transparent;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: transparent;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+#logoutBtn{
+  position: absolute;
+  left: 190px;
+  top:900px;
+}
+.logoutBtn{
+  background-color: transparent;
+  padding: 6px;
+  border-radius: 18px;
+  border: 3px solid black;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: black;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition-duration: 0.4s;
+    position: absolute;
+  left: 190px;
+  top:900px;
+}
+.logoutBtn:hover{
+  background-color: #bb0a21;
+  color: white;
+  border-color: black;
+}
+
+#accountBtn{
+  position: absolute;
+  left:500px;
+  top:900px;
+}
+
+.accountBtn{
+  background-color: transparent;
+  padding: 6px;
+  border-radius: 18px;
+  border: 3px solid black;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: black;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition-duration: 0.4s
+}
+.logoutBtn:hover{
+  background-color: #bb0a21;
+  color: white;
+  border-color: black;
+}
+#Level_1 {
+  position: absolute;
+  width: 239px;
+  height: 434px;
+  left: 185px;
+  top: 264px;
+  overflow: visible;
+}
+#NotesBtn {
+  left: 0px;
+  top: 405px;
+  position: absolute;
+  overflow: visible;
+  width: 72px;
+}
+.NotesBtn{
+  background-color: transparent;
+  padding: 6px;
+  border-radius: 18px;
+  border: 3px solid white;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: rgba(0,0,0,1);
+  text-transform: uppercase;
+  cursor: pointer;
+  transition-duration: 0.4s
+}
+
+.NotesBtn:hover{
+  background-color: #bb0a21;
+  color: white;
+}
+
+#Homework {
+  left: 0px;
+  top: 338px;
+  position: absolute;
+  overflow: visible;
+  width: 137px;
+}
+.HomeworkBtn{
+  background-color: transparent;
+  padding: 6px;
+  border-radius: 18px;
+  border: 3px solid white;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: rgba(0,0,0,1);
+  text-transform: uppercase;
+  cursor: pointer;
+  transition-duration: 0.4s
+}
+.HomeworkBtn:hover{
+  background-color: #bb0a21;
+  color: white;
+}
+#RoomsBtn {
+  left: 0px;
+  top: 270px;
+  position: absolute;
+  overflow: visible;
+  width: 86px;
+}
+.RoomsBtn{
+  background-color: transparent;
+  padding: 6px;
+  border-radius: 18px;
+  border: 3px solid white;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: rgba(0,0,0,1);
+  text-transform: uppercase;
+  cursor: pointer;
+  transition-duration: 0.4s
+}
+.RoomsBtn:hover{
+  background-color: #bb0a21;
+  color: white;
+}
+
+#GradesBtn {
+  left: 0px;
+  top: 203px;
+  position: absolute;
+  overflow: visible;
+  width: 87px;
+}
+
+.GradesBtn{
+  background-color: transparent;
+  padding: 6px;
+  border-radius: 18px;
+  border: 3px solid white;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: rgba(0,0,0,1);
+  text-transform: uppercase;
+  cursor: pointer;
+  transition-duration: 0.4s
+}
+.GradesBtn:hover{
+  background-color: #bb0a21;
+  color: white;
+}
+#ScheduleBtn {
+  left: 0px;
+  top: 135px;
+  position: absolute;
+  overflow: visible;
+  width: 114px;
+}
+.ScheduleBtn{
+  background-color: transparent;
+  padding: 6px;
+  border-radius: 18px;
+  border: 3px solid white;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: rgba(0,0,0,1);
+  text-transform: uppercase;
+  cursor: pointer;
+  transition-duration: 0.4s
+}
+.ScheduleBtn:hover{
+  background-color: #bb0a21;
+  color: white;
+}
+#ModulesBtn {
+  left: 0px;
+  top: 67px;
+  position: absolute;
+  overflow: visible;
+  width: 105px;
+}
+.ModulesBtn{
+  background-color: transparent;
+  padding: 6px;
+  border-radius: 18px;
+  border: 3px solid white;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: rgba(0,0,0,1);
+  text-transform: uppercase;
+  cursor: pointer;
+  transition-duration: 0.4s
+}
+
+.ModulesBtn:hover{
+  background-color: #bb0a21;
+  color: white;
+}
+#AnnouncementsBtn {
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  overflow: visible;
+  width: 240px;
+}
+.AnnouncementsBtn{
+  background-color: transparent;
+  padding: 6px;
+  border-radius: 18px;
+  border: 3px solid #bb0a21;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: rgba(0,0,0,1);
+  text-transform: uppercase;
+  cursor: pointer;
+  transition-duration: 0.4s
+}
+.AnnouncementsBtn:hover{
+  background-color: #bb0a21;
+  color: white;
+  border-color: black;
+}
+#Background {
+  position: absolute;
+  width: 625.173px;
+  height: 959.795px;
+  left: 974.827px;
+  top: 0px;
+  overflow: visible;
+}
+#BackgroundStyling {
+  opacity: 0.701;
+  fill: rgba(23,32,55,1);
+}
+.BackgroundStyling {
+  overflow: visible;
+  position: absolute;
+  width: 625.173px;
+  height: 959.795px;
+  left: 0px;
+  top: 0px;
+  transform: matrix(1,0,0,1,0,0);
+}
+#welcomeCircle {
+  fill: rgba(187,10,33,1);
+  stroke: rgba(112,112,112,1);
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.welcomeCircle {
+  position: absolute;
+  overflow: visible;
+  width: 258px;
+  height: 251px;
+  left: 671px;
+  top: -62px;
+}
+#welcomeMessage {
+  left: 702px;
+  top: 74px;
+  position: absolute;
+  overflow: visible;
+  width: 197px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  color: rgba(0,0,0,1);
+}
+#NotesIMG {
+  position: absolute;
+  width: 205px;
+  height: 205px;
+  left: 770px;
+  top: 268px;
+  overflow: visible;
+}
+#notesBtn{
+  position: absolute;
+  left: 770px;
+  top: 268px;
+  overflow: visible;
+  cursor: pointer;
+}
+.notesBtn{
+  background-color: transparent;
+  padding-right: 85px;
+  padding-bottom: 160px;
+  border: 3px solid transparent;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: transparent;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition-duration: 0.4s
+}
+#Calendar{
+  position: absolute;
+  width: 196px;
+  height: 196px;
+  left: 506px;
+  top: 502px;
+  overflow: visible;
+}
+#calendarBtn{
+  position: absolute;
+  width: 196px;
+  height: 196px;
+  left: 506px;
+  top: 502px;
+}
+
+.calendarBtn{
+  background-color: transparent;
+  padding-right: 85px;
+  padding-bottom: 160px;
+  border: 3px solid transparent;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: transparent;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition-duration: 0.4s
+}
+
+#Settings{
+  position: absolute;
+  width: 217px;
+  height: 217px;
+  left: 764px;
+  top: 495px;
+  overflow: visible;
+}
+#settingsBtn{
+  position: absolute;
+  left: 764px;
+  top: 495px;
+  overflow: visible;
+  cursor:pointer;
+}
+.settingsBtn{
+  background-color: transparent;
+  padding-right: 85px;
+  padding-bottom: 160px;
+  border: 3px solid transparent;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: transparent;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+#Lessons{
+  position: absolute;
+  width: 196px;
+  height: 196px;
+  left: 506px;
+  top: 273px;
+  overflow: visible;
+}
+#lessonsBtn{
+  position: absolute;
+  left: 508px;
+  top: 275px;
+  overflow: visible;
+  cursor:pointer;
+}
+.lessonsBtn{
+  background-color: transparent;
+  padding-right: 85px;
+  padding-bottom: 160px;
+  border: 3px solid transparent;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: transparent;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition-duration: 0.4s
+}
+
+#LoginBtn{
+
+}
+
+.currentUser{
+  position: absolute;
+  bottom: 0;
+}
+
+.MenuFooter{
+  position: absolute;
+  bottom: 150px;
+}

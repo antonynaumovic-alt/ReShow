@@ -1,0 +1,51 @@
+:root{
+    width:100%;
+    left:0;
+    top:0;
+    --main: #BB0A21;
+}
+
+.Contact{
+    width:100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+}
+
+.Contact-container{
+    position: absolute;
+    width:90vw;
+    left:5vw;
+    top: 5vh;
+    height:90vh;
+}
+
+.Contact-title{
+    font-weight: 800;
+    font-size: 60pt;
+    color: var(--main);
+}
+
+.Contact-Person{
+    font-weight: 800;
+    font-size: 30pt;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.PersonImage{
+    width: 30vh;
+    height: 30vh;
+    background-color: rgb(196, 196, 196);
+}
+
+.FooterContainerContact{
+    position: absolute;
+    top: 210vh;
+    left: 0;
+
+    z-index: 46;
+    width: 100%;
+}

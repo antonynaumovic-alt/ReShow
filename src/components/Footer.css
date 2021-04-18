@@ -1,0 +1,50 @@
+:root{
+    width:100%;
+    left:0;
+    top:0;
+    --main: #BB0A21;
+}
+
+.Footer{
+    position:absolute;
+    top: 0;
+    height: 25vh;
+    left:0;
+    width:100%;
+    background-color: var(--main);
+    z-index: 46;
+    display: block;
+}
+
+
+.Footer-Container{
+    width: 30vw;
+    height: 16vh;
+    left: 5vw;
+    position: absolute;
+    display: block;
+}
+
+.Footer-Container-2{
+    width: 30vw;
+    height: 16vh;
+    right: 15vw;
+    position: absolute;
+    display: block;
+}
+
+
+.Link{
+    color:#fff;
+    text-decoration: none;
+    display: block;
+    font-weight: 500;
+    text-transform: none;
+}
+
+
+.Link-Header{
+    color:#fff;
+    text-decoration: none;
+    display: block;
+}

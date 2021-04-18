@@ -3,6 +3,7 @@
     left:0;
     top:0;
     --main: #BB0A21;
+    position: absolute;
 }
 
 .bg-container{
@@ -70,7 +71,7 @@ section{
     
 }
 
-.features{
+.features-homepage{
     width: 100%;
     height: 100vh;
     position: absolute;
@@ -141,7 +142,7 @@ section{
 
 }
 
-.mission{
+.mission-homepage{
     width: 100%;
     height: 100vh;
     position: absolute;
@@ -249,5 +250,14 @@ section{
     flex-flow: column;
     justify-content: right;
     align-items: flex-end;
+    width: 100%;
+}
+
+.FooterContainer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    top: 315vh !important;
+    z-index: 46;
     width: 100%;
 }

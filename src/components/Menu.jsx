@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import EnrolleLogo from './img/Enrolle.svg';
 import './Menu.css';
+import { GetContext } from '../contexts/UserAuth'
+import ReactSession from 'react-client-session';
 
 function Menu() {
 
@@ -22,6 +24,8 @@ function Menu() {
     const handleInteract = () => { setInteract(!interact) };
     const closeMenu = () => setInteract(false);
 
+    const { currentUser } = GetContext()
+
     return (
         <>
         <nav className="navbar">
@@ -33,12 +37,15 @@ function Menu() {
             
 
                 </div>
+                
                 <ul className={interact ? "nav-menu-static-active" : "nav-menu-static"}>
+                {!currentUser &&
                     <li className='nav-item-static'>
                          <Link to="/login" className={interact ? "nav-links-static-active" : "nav-links-static"} onClick={closeMenu}>
                             Login
                         </Link>
                     </li>
+                }
                     <li className='nav-item-static'>
                          <Link to="/contact" className={interact ? "nav-links-static-active" : "nav-links-static"} onClick={closeMenu}>
                             Contact
@@ -47,6 +54,7 @@ function Menu() {
                 </ul>
             </nav>
         <div className="menu">
+        
             <div className={interact ? "menu-container-active" : "menu-container"} onClick={handleInteract}></div>
             <div className="menu-icon">
                 <i className={interact ? "fab fa-mixer" : "fas fa-bars"}> </i>
@@ -54,8 +62,8 @@ function Menu() {
             </div>                
 
                 <div className={interact ? "nav-menu active" : "nav-menu"}>
+                    <div className="currentUserMenu">Logged in as: {currentUser && currentUser.email}</div>
                     <ul className="nav-item-container">
-
                         <li className='nav-item'>
                             <Link to="/" className="nav-links" onClick={closeMenu}>
                                 Home
@@ -91,6 +99,13 @@ function Menu() {
                                 FAQ
                             </Link>
                         </li>
+                        {currentUser &&
+                        <li className='nav-item'>
+                            <Link to="/main" className="nav-links" onClick={closeMenu}>
+                                APP
+                            </Link>
+                        </li>
+                        }
                     </ul>
                 </div>
 
