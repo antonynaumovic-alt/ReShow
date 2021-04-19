@@ -2,6 +2,8 @@ import React, {useRef, useState} from 'react'
 import { GetContext } from '../contexts/UserAuth'
 import { Link, useHistory } from 'react-router-dom'
 
+import './Login.css';
+
 export default function Signup() {
 
     const history = useHistory()
@@ -28,14 +30,14 @@ export default function Signup() {
     return (
         <>
             <div className="sign-component">
-                <h2>Sign Up</h2>
+                <h1 className="login-title">Sign Up</h1>
                 <div>{errorMessage}</div>
                 <form onSubmit={handleSignup}>
-                    <label>Email</label>
-                    <input type="email" name="email" ref={emailSignupRef} required />
-                    <label>Password</label>
-                    <input type="password" name="password" ref={passwordSignupRef} required />
-                    <input type="submit" disabled={isBusy}/>
+                    <label className="label">Email</label>
+                    <input type="email" name="email" className="login-inputfield" ref={emailSignupRef} required />
+                    <label className="label">Password</label>
+                    <input type="password" name="password" className="login-inputfield" ref={passwordSignupRef} required />
+                    <input type="submit" className="btn-login" disabled={isBusy}/>
                 </form>
                 <div className="alt-link">
                     Switch to <Link to="/login">Login</Link>

@@ -10,6 +10,17 @@
   left: 0;
 }
 
+.sign-component{
+  display: block;
+  left: 20px;
+  margin: 20px;
+}
+
+.login-title{
+  font-weight: 800;
+  font-size: 40pt;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -221,6 +232,7 @@ button{
   border-right-style: hidden;
   border-left-style: hidden;
   border-bottom-style: hidden;
+  padding: 20px;
 }
 .login-inputfield:focus {
   outline: none;
@@ -343,3 +355,8 @@ button{
 }
 
 /*# sourceMappingURL=App.css.map */
+
+.label {
+  padding: 20px;
+  font-size: 14pt;
+}

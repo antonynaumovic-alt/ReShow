@@ -2,6 +2,9 @@ import React, {useRef, useState} from 'react'
 import { GetContext } from '../contexts/UserAuth'
 import { Link, useHistory } from 'react-router-dom'
 
+import './Login.css';
+import googleLogo from "./img/googleicon.png";
+
 export default function Login() {
 
     const history = useHistory()
@@ -45,17 +48,17 @@ export default function Login() {
         <>
             <div className="sign-component">
 
-                <h2>Login</h2>
+                <h1 className="login-title">Login</h1>
                 <div className="error">{errorMessage}</div>
                 <form onSubmit={handleLogin}>
-                    <label>Email</label>
-                    <input type="email" name="email" ref={emailSignupRef} required />
-                    <label>Password</label>
-                    <input type="password" name="password" ref={passwordSignupRef} required />
-                    <input type="submit" disabled={isBusy}/>
+                    <label className="label">Email</label>
+                    <input type="email" className="login-inputfield" name="email" ref={emailSignupRef} required />
+                    <label className="label">Password</label>
+                    <input type="password" className="login-inputfield" name="password" ref={passwordSignupRef} required />
+                    <input type="submit" className="btn-login" disabled={isBusy}/>
                 </form>
                 <div className="alt-link">
-                    <button onClick={handleGoogle}>Google</button>
+                    <button onClick={handleGoogle}><img src={googleLogo} /></button>
                 Switch to <Link to="/signup">Signup</Link>
                 </div>
             </div>
