@@ -48,7 +48,7 @@ function App() {
             <Route exact path='/main/chat' component={Chat}/>
             <Route component={ErrorPage} />
           </Switch>
-          </UserAuth>
+        </UserAuth>
       </Router>
 
     </>

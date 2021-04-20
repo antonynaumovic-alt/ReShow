@@ -1,7 +1,7 @@
 import React, { useRef, useState }  from 'react';
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import CreateRoom from "./CreateRoom";
-import Room from "../local_modules/Room"; //Room code by Chaim Copyright:https://github.com/coding-with-chaim/native-webrtc
+import Room from "../local_modules/Room";
 import './Login.css';
 
 import firebase from 'firebase/app';

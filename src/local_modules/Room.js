@@ -4,11 +4,6 @@ import io from "socket.io-client";
 const Room = (props) => {
     const userVideo = useRef();
     const partnerVideo = useRef();
-    const peerRef = useRef();
-    const socketRef = useRef();
-    const otherUser = useRef();
-    const userStream = useRef();
-    const senders = useRef([]);
     var myStream;
 
     function muteMic(){
