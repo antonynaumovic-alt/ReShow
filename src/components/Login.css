@@ -1,0 +1,345 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
+
+.Login{
+  overflow: hidden;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+button{
+  font-weight: 800;
+}
+
+.btn-reserveRoom {
+  background-color: #252627, 0;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  box-sizing: border-box;
+  transition: 0.2s ease-in-out;
+  text-decoration: none;
+  line-height: 42px;
+  cursor: pointer;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  max-width: 180px;
+  margin: 1rem auto;
+  text-transform: uppercase;
+  border: 2px solid currentColor;
+  border-radius: 25px;
+  width: 20rem;
+  border-color: #252627;
+  font-size: 12pt;
+}
+.btn-reserveRoom:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -50px;
+  bottom: 0;
+  left: 0;
+  background-color: shade(#ffffff, 40%);
+  transform: translateX(-100%);
+}
+.btn-reserveRoom:hover {
+  background-color: #BB0A21;
+  color: #ffffff;
+}
+.btn-reserveRoom:hover:before {
+  transform: translateX(-40%);
+}
+.btn-reserveRoom:hover:after {
+  transform: translateX(40%);
+}
+.btn-reserveRoom:after {
+  left: -50px;
+  border-left: 50px solid transparent;
+  transform: translateX(100%);
+}
+
+.btn-createRoom {
+  background-color: #252627, 0;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  box-sizing: border-box;
+  transition: 0.2s ease-in-out;
+  text-decoration: none;
+  line-height: 42px;
+  cursor: pointer;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  max-width: 180px;
+  margin: 1rem auto;
+  text-transform: uppercase;
+  border: 2px solid currentColor;
+  border-radius: 25px;
+  width: 20rem;
+  border-color: #252627;
+  font-size: 12pt;
+}
+.btn-createRoom:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -50px;
+  bottom: 0;
+  left: 0;
+  background-color: shade(#ffffff, 40%);
+  transform: translateX(-100%);
+}
+.btn-createRoom:hover {
+  background-color: #BB0A21;
+  color: #ffffff;
+}
+.btn-createRoom:hover:before {
+  transform: translateX(-40%);
+}
+.btn-createRoom:hover:after {
+  transform: translateX(40%);
+}
+.btn-createRoom:after {
+  left: -50px;
+  border-left: 50px solid transparent;
+  transform: translateX(100%);
+}
+
+.inputfield {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  box-sizing: border-box;
+  transition: 0.2s ease-in-out;
+  text-decoration: none;
+  line-height: 42px;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  max-width: 480px;
+  margin: 1rem auto;
+  text-transform: uppercase;
+  border: 2px solid currentColor;
+  border-radius: 25px;
+  border-color: #252627;
+  font-size: 12pt;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.mainlogo {
+  border: 30px;
+  margin: 30px;
+  width: 80rem;
+  max-width: 500px;
+  height: auto;
+  color: #BB0A21;
+}
+
+.logintext {
+  font-family: "Montserrat", sans-serif;
+  font-size: 55pt;
+  color: #BB0A21;
+  text-transform: uppercase;
+  position: relative;
+  display: block;
+  margin: 0;
+  text-align: left;
+}
+
+.login-inputform {
+  background-color: #252627, 0;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  box-sizing: border-box;
+  transition: 0.2s ease-in-out;
+  text-decoration: none;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  max-width: 50vw;
+  margin: 1rem auto;
+  text-transform: uppercase;
+  border: 3px solid currentColor;
+  border-radius: 50px;
+  border-color: #252627;
+  font-size: 12pt;
+  width: 50vw;
+  text-indent: 15px;
+}
+
+.login-inputfield {
+  background-color: #252627, 0;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  box-sizing: border-box;
+  transition: 0.2s ease-in-out;
+  text-decoration: none;
+  line-height: 50px;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  max-width: 50vw;
+  text-transform: uppercase;
+  font-size: 12pt;
+  width: 50vw;
+  text-indent: 15px;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+}
+.login-inputfield:focus {
+  outline: none;
+}
+
+.logininput-div {
+  position: relative;
+}
+
+.login-logintext {
+  position: relative;
+}
+
+.login-layout {
+  position: absolute;
+  margin-left: 50px;
+
+  top: 40vh;
+}
+
+.btn-icon {
+  float: left;
+  z-index: 1000;
+  position: relative;
+  cursor: pointer;
+  align-self: left;
+  margin: 15px;
+  display: inline-block;
+}
+
+.login-socialLogin {
+  position: relative;
+}
+
+.btn-login {
+  background-color: #252627, 0;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  box-sizing: border-box;
+  transition: 0.2s ease-in-out;
+  text-decoration: none;
+  line-height: 42px;
+  cursor: pointer;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  max-width: 180px;
+  margin: 1rem auto;
+  text-transform: uppercase;
+  border: 3px solid currentColor;
+  border-radius: 25px;
+  margin-left: 0;
+  border-color: #252627;
+  font-size: 12pt;
+}
+.btn-login:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -50px;
+  bottom: 0;
+  left: 0;
+  background-color: shade(#ffffff, 40%);
+  transform: translateX(-100%);
+}
+.btn-login:hover {
+  background-color: #BB0A21;
+  color: #ffffff;
+}
+.btn-login:hover:before {
+  transform: translateX(-40%);
+}
+.btn-login:hover:after {
+  transform: translateX(40%);
+}
+.btn-login:after {
+  left: -50px;
+  border-left: 50px solid transparent;
+  transform: translateX(100%);
+}
+
+.circleoverlay {
+  width: 400vh;
+  height: 400vh;
+  background-color: #BB0A21;
+  z-index: -10;
+  color: #BB0A21;
+  position: absolute;
+  border-radius: 50%;
+  right: -300vh;
+  top: -200vh;
+  overflow: hidden;
+}
+
+.circleimage {
+    width: 400vh;
+    height: 400vh;
+    background-color: #BB0A21;
+    z-index: -10;
+    color: #BB0A21;
+    position: absolute;
+    border-radius: 50%;
+    right: -300vh;
+    top: -200vh;
+    overflow: hidden;
+}
+
+.roomButton {
+  position: relative;
+}
+
+.logout {
+  position: absolute;
+  margin: 50px;
+  bottom: 0;
+}
+
+.createroom-div {
+  width: 100vw;
+}
+
+/*# sourceMappingURL=App.css.map */

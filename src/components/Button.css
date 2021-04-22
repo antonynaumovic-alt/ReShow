@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800;900&display=swap');
+
+:root {
+    --main: #BB0A21;
+}
+
+.btn {
+    text-align: center;
+    border-radius: 25px;
+    padding: 10px 20px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900 !important;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.btn--outline {
+    background-color: (#252627, 0);
+    color: #000;
+    border: 2px solid #252627;
+    border-color: #252627;
+    transition: all 0.2s ease-out;
+    text-decoration: none;
+}
+
+.btn--small {
+    font-size: 12pt;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.btn--large {
+    font-size: 12pt;
+    padding: 14px 28px;
+    text-decoration: none;
+}
+
+
+.btn--small:hover, .btn--large:hover {
+    transition: all 0.2s ease-out;
+    background-color: #BB0A21;
+    color: #ffffff;
+}

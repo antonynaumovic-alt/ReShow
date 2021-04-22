@@ -1,0 +1,84 @@
+
+:root {
+    --main: #BB0A21;
+}
+
+
+.enrolle-logo{
+    height: 80px;
+}
+
+.navbar {
+    background-color: (rgba(0, 0, 0, 0), 0);
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: top;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 100%;
+  }
+
+  .fa-bars, .fa-mixer{
+      color: #fff
+  }
+
+  .menu-container{
+      height: 160px;
+      width: 160px;
+      background-color: var(--main);
+      border-radius: 50%;
+      position: absolute;
+      left: -80px;
+      top: -80px;
+      cursor: pointer;
+
+  }
+
+  .menu-icon {
+    margin: 5px;
+    position: absolute;
+    left: 12px;
+    top: 10px;
+    font-size: 20pt;
+    pointer-events: none;
+  }
+
+  .nav-item-static{
+    display:inline-block;
+    z-index: 999;
+  }
+
+  .nav-menu-static{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    right: 0;
+    top: 15px;
+    z-index: 999;
+  }
+
+
+  ul{
+    list-style-type: none;
+  }
+
+  .nav-links-static{
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bolder;
+    display: block;
+    align-items: center;
+    padding: 0.5rem 2rem;
+    height: 100%;
+    color: #000;
+    z-index: 999;
+  }

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800;900&display=swap');
+:root{
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+    transition: all 1s ease;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    scroll-snap-type: y proximity;
+    scroll-snap-stop: always;
+    
+}
+
+:root::-webkit-scrollbar {
+    display: none;
+  }
+
+body{
+    font-weight: 900;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    
+}
+
+.wrapper{
+    scroll-snap-type: y mandatory !important;
+}
